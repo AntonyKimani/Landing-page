@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family:"poppins",sans-serif;
+}
+
+body{
+    background:url("images/young-african-american-musician-playing-guitar-like-rockstar-yellow-background-neon-light.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:80px -100px;
+}
+.apple-logo i{
+    position:relative;
+    left:16px;
+
+}
+nav ul{
+    display:flex;
+    flex-direction:row;
+    float:right;
+    position:relative;
+    bottom:2em;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+    padding:10px 40px;
+    transition:.5s ease-in-out;
+}
+nav ul li a:hover{
+    border:1px solid black;
+    padding:10px 40px;
+}
+.header h1{
+    font-size:5em;
+    position:relative;
+    top:10px;
+    left:100px;
+}
+
+.think-tag{
+    font-family:sans-serif;
+    transition:.5s ease-in-out;
+}
+.think-tag:hover{
+    border-bottom:1px solid black;
+    cursor:pointer;
+}
+.header a{
+    position:relative;
+    left:7em;
+    top:3em;
+    text-decoration:none;
+    color:black;
+}
+.header a i:hover{
+    transform:translateX(5px);
+}
+.glass-bars{
+    display:grid;
+    grid-template-columns:15% 15% 15% 15% 15% 15%;
+    grid-gap:2%;
+    position:relative;
+    top:7em;
+    text-align:center;
+}
+.glass-bar{
+    background:hsl(0 0% 100% /0.1);
+    backdrop-filter:blur(1rem);
+    cursor:pointer;
+}
+.glass-bar h4{
+    display:none;
+    transition:.5s ease-in-out;
+}
